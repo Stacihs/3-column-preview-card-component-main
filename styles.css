@@ -27,6 +27,8 @@
 .row {
   height: 30rem;
   width: 54rem;
+  border: solid transparent;
+  border-radius: 50px;
 }
 
 .panel {
@@ -40,7 +42,7 @@
 .panel a {
   border: solid transparent;
   border-radius: 30px;
-  padding: 1rem 2rem;
+  padding: 0.5rem 0rem;
   text-decoration: none;
   background-color: hsl(0, 0%, 95%);
 }
@@ -90,6 +92,9 @@ button {
 }
 
 .attribution {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   font-size: 11px;
   text-align: center;
 }
